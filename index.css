@@ -1,0 +1,60 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    /* uigradients.com */
+    background: #11998e; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #11998e, #38ef7d); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #11998e, #38ef7d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:ivory;
+    font-size: 2.1rem;
+
+     font-family: 'Luckiest Guy', cursive;
+    }
+
+
+    h1, h4 {
+        letter-spacing: 1rem;
+         color: rgba(243, 217, 221, 0.986);
+    }
+
+    h1 {
+        font-size: 400%;
+       }
+
+    h4 {
+        font-size: 150%;
+        max-width: 50%;
+        margin: 0 auto;
+        line-height: 1.75em;
+        text-align: center;
+      }
+   
+
+button {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background: #43C6AC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #191654, #43C6AC);  /* Chrome 10-25, Safari 5.1-6*/
+     background: linear-gradient(to right, #191654, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-repeat: no-repeat; 
+    border: 5px solid brown;
+    cursor: pointer;
+    margin-top: 2em;
+    
+ }
+
+
+.color-switch {
+    background: #fc00ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #00dbde, #fc00ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}    
